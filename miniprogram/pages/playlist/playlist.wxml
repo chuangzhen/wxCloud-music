@@ -1,0 +1,14 @@
+<swiper indicator-dots="true" autoplay="true" interval="1000" circular="true">
+  <block wx:for="{{swiperImgUrls}}" wx:key="index">
+  <!-- wx:key记录该条数据的行为特征，wx:key="*this" 记录对每一条数据做的默认操作，也可以直接用被循环的数组的元素（独一无二）来做key值，也可以用默认的"index" -->
+    <swiper-item wx:key="{{index}}">
+      <image src="{{item.url}}" class="img" mode="widthFix"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="xplaylist">
+  <block wx:for="{{playlist}}" wx:key="_id" >
+    <x-playlist playlist="{{item}}" ></x-playlist>
+  </block>
+</view>

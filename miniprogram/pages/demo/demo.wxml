@@ -1,0 +1,6 @@
+<!--pages/demo/demo.wxml-->
+<text>pages/demo/demo.wxml</text>
+
+<button bindtap="getMusicInfo">获取音乐信息</button>
+<button bindtap="getMoveInfo">获取电影信息</button>
+

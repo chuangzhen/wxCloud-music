@@ -1,0 +1,41 @@
+.musiclist-container {
+  display: flex;
+  align-items: center;
+  padding: 14rpx 20rpx;
+}
+
+.musiclist-index {
+  color: #888;
+  font-size: 34rpx;
+  width: 88rpx;
+}
+
+.musiclist-info {
+  flex-grow: 1;
+  width: 0;
+}
+
+.musiclist-name {
+  font-size: 34rpx;
+  color: #333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.musiclist-alia {
+  font-size: 24rpx;
+  color: #888
+}
+
+.musiclist-singer {
+  font-size: 24rpx;
+  color: #888;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  
+}
+.playing view,.playing text{
+  color: #d43c33
+}
